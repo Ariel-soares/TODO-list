@@ -1,73 +1,30 @@
-
-main{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 10rem;
-    width: 100%;
-    height:100%;
-    background-color: #f5f5f5;
+body {
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    color:#000;
+    background-color: #f5f5f5
 }
 
-form input{
-    border: .1rem solid #ccc;
-    border-radius: .3rem;
-    width: 45rem;
-    margin: 4rem 0;
-    padding: .6rem 1rem;
-    font-size: 1.6rem;
-    letter-spacing: .06rem;
-    font-weight: bold;
-}
-
-form button{
-    padding: .8rem 2.8rem;
-    border: none;
-    border-radius: .3rem;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 2.4rem;
-    background-image: linear-gradient(to right,#9300ff , #c175ff);
-     color: #fff;
-}
-
-label{
-    font-size: 1.5rem;
-    letter-spacing: .06rem;
-    color: #3A3845;
-    font-weight: bold;
-}
-
-.main-task li{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    width:50rem;
-    min-height: 6rem;
-    border-bottom: .1rem solid #ccc;
-}
-
-.main-task li:first-child{
-    border-top: .1rem solid #ccc;
-}
-
-.main-task li:hover{
-    background-color: #fef2f2;
-}
-
-.main-task li input[type="checkbox"]:checked  + label {
-    text-decoration: line-through;
-    color: #D14D72;
-    
-}
-
-.main-task li button{
-    padding: .6rem 1rem;
-    width: 7rem;
-    background-color: #D14D72;
-    color: #FFF9F9;
-    border:none;
+div{
     display: inline-block;
-    cursor: pointer;
-    justify-self: center;
-    letter-spacing: .1rem;
+    width:440px;
+    height: 700px;
+    margin-left: 100px;
+}
+
+#lista {
+    float:left;
+    background:#fff;
+}
+
+#adicionar {
+    background-color: #fff;
+    margin-left: 100px;
+}
+
+#editar {
+    background-color: #fff;
+    float: right;
+    margin-right: 200px;
 }
