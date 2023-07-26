@@ -2,7 +2,8 @@
 Projeto para aplicação em vaga de desenvolvedor front-end júnior .
 
 Instruções para iniciar o projeto.
-É necessário ter o node instalado na máquina.
+
+*É necessário ter o node instalado na máquina.*
 
 1 - Clone este repositório em um diretório de sua preferência através do comando $ git clone "URL deste repositório".
 
