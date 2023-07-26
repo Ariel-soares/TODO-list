@@ -7,15 +7,12 @@ const Page = () => {
 
         
           <div id="lista">
-            <h1>Today schedule</h1>
+            <p>Today Schedule</p>
           <Todos />
           </div>
           <div id = "adicionar">
-            <h1>Create task</h1>
+            <p>Create task</p>
           <AddTodo />
-          </div>
-          <div id = "editar">
-            <h1>Edit</h1>
           </div>
 
       </main>
