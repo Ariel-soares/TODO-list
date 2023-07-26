@@ -1,30 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+p{
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Courier, monospace;
+}
+
 body {
     flex-direction: column;
     margin:0;
     padding:0;
     color:#000;
-    background-color: #f5f5f5
+    background-color: #b3b3a8;
 }
 
 div{
     display: inline-block;
     width:440px;
-    height: 700px;
+    height: 500px;
     margin-left: 100px;
+    margin-top: 50px;
 }
+
+
 
 #lista {
     float:left;
     background:#fff;
+    border-radius: 5%;
 }
 
 #adicionar {
+    float: right;
     background-color: #fff;
-    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5%;
 }
 
-#editar {
-    background-color: #fff;
-    float: right;
-    margin-right: 200px;
+.main-task li input[type="checkbox"]:checked  + label {
+    background-image: linear-gradient( to right, #9932cc, #8a2be2);
+    border-radius: 5%;
+}
+
+.main-task li button{
+    padding: .6rem 1rem;
+    width: 7rem;
+    background-color: #D14D72;
+    color: #FFF9F9;
+    border:none;
+    display: inline-block;
+    margin-left: 10px;
+    letter-spacing: .1rem;
+    border-radius: .3rem;
+}
+form button{
+    padding: .8rem 2.8rem;
+    border: none;
+    border-radius: .3rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 140px;
+    background-image: linear-gradient( to right, #9932cc, #8a2be2);
+     color: #fff;
+}
+
+form input{
+    border: .1rem solid #ccc;
+    border-radius: .3rem;
+    margin: 4rem 30px;
+    padding: .6rem 1rem;
+    font-size: 1.6rem;
+    letter-spacing: .06rem;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 1.5rem;
+    letter-spacing: .06rem;
+    color: #3A3845;
+    font-weight: bold;
 }
